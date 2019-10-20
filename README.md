@@ -1,2 +1,2 @@
 # html-css-A3
-third activity from html-css module in webmaster
+Tercera actividad del modulo HTML y CSS del diplomado webmaster en la universidad Dr rafael belloso chacin (URBE).
