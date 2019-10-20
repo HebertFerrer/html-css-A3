@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #F6F7EB;
+    font-family: roboto, Arial;
+}
+
+ul, nav{
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #393E41;
+    color: #FBFBFB;
+}
+
+#secciones {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.contenido-principal {
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+    .contenido-principal p{
+        font-weight: bold;
+    }
+
+.contenido-multimedia {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+}
+
+    .contenido-multimedia p{
+        text-align: center;
+    }
+
+.contenido-contacto {
+    margin: auto;
+    margin-top: 50px;
+    /* width: 500px; */
+}
+
+    .contenido-contacto form {
+        background-color: #393E41;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+    }
+
+        .contenido-contacto form input {
+            margin-bottom: 5px;
+            margin-top: 5px;
+            padding: 7px;
+        }
+
+        .contenido-contacto form input {
+            margin-bottom: 5px;
+            margin-top: 5px;
+            padding: 7px;
+        }
+
+        .contenido-contacto form button {
+            /* margin-bottom: 5px; */
+            margin-top: 5px;
+            padding: 10px;
+            background-color: #E94F37;
+            color: white;
+            border-style: none;
+            /* width: 500px; */
+            /* margin: auto; */
+            
+        }
+
+        .contenido-contacto form textarea {
+            margin-top: 5px;
+            padding: 7px;
+            resize: none;
+        }
+
+.contenido-tablas {
+    margin-top: 50px;
+}
+
+.contenido-tablas table{
+    margin: auto;
+    width: 500px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: #FBFBFB;
+    text-decoration: none;
+    padding: 3px;
+}
+
+a:hover {
+    background-color: #E94F37;
+    border-radius: 15px;
+}
